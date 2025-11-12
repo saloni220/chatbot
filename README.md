@@ -33,4 +33,4 @@ Follow these steps to run the project locally 👇
 
 ### 1️⃣ Clone this repository
 ```bash
-git clone https://github.com/<your-username>/<repo-name>.git](https://github.com/saloni220/chatbot.git
+git clone https://github.com/saloni220/chatbot.git
