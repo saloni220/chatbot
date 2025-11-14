@@ -2,8 +2,12 @@ import express from 'express'
 import dotenv from 'dotenv';
 import mongoose from 'mongoose';
 import chatBotRutes from './routes/chatbot.route.js'
+import cors from "cors";
+
+
 const app=express()
 dotenv.config();
+app.use(cors());
 //database connection code 
 mongoose.connect(process.env.MONGO_URI).then(()=>{
     console.log("database connectes successfully")
